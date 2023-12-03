@@ -1,0 +1,33 @@
+body {
+    margin: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin:0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    /* 
+    Challenge:
+    Add colors to the card according to the design.
+    black - #2b2839 (the text color)
+    blue - #ddebf8
+    purple - #d8cefe
+    */
+    background: #4F772D;
+    color: #001219;
+    border-bottom: 6px solid #F7B801;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+    
